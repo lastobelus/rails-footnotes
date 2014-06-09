@@ -10,7 +10,7 @@ module Footnotes
     @@prefix = 'txmt://open?url=file://%s&amp;line=%d&amp;column=%d'
 
     # Edit notes
-    @@notes = [ :controller, :view, :layout, :partials, :stylesheets, :javascripts ]
+    @@notes = [ :controller, :view, :layout, :views, :stylesheets, :javascripts ]
     # Show notes
     @@notes += [ :assigns, :session, :cookies, :params, :filters, :routes, :env, :queries, :log]
 
